@@ -1,2 +1,8 @@
 ---
 # tasks file for test_role
+
+- debug:
+    msg: "Printing variable value: {{ test_var }}"
+
+- debug:
+    msg: "Goodbye."
